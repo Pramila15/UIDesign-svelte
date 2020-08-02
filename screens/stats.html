@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Covid-19 stats</title>
+    <link rel = "icon" href = "../assets/images/corona.png" type = "image/x-icon">
     
     <link rel="stylesheet" href="../assets/css/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -22,56 +23,80 @@
 </head>
 <body class="screen">
 
+    <nav class="navbar sticky-top navbar-expand-md navbar-light" style="background-color: #004ba1e5;">
+
+        <a href="../index.html" class="navbar-brand">
+            <img src="../assets/images/corona.png" height="30" alt="corona tracker">&nbsp;<b style="color: white;">COVIDTRACKER</b>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+                         <div class="navbar-nav ml-auto">
+                <a href="faq.html" class="nav-item nav-link"><b style="color: white;">FAQ</b></a>
+                <a href="advice.html" class="nav-item nav-link"><b style="color: white;">ADVICE</b></a>
+                <a href="stats.html" class="nav-item nav-link"><b style="color: white;">STATS</b></a>
+               
+                
+            </div>
+        </div>
+    </nav>
     
 
     <div class="container">
         <div class="inner">
         <img src="../assets/images/corona.png" id="img" alt="" srcset=""><br><br>
+    </div>
 
-        <section class="count">
+        <section id="corona-counter">
             <div class="container">
-                <div class="inner-box">
+                
                     <div class="row">
-                        <div class="col lg-3 col-md-6 col-sm-12 counter-item">
-                            <div class="single-counter-box">
-                                <h3 class="odometer odometer-auto-theme" id="total" style="color: white;">
+                        <div class="col-xs-4 service-left">
+                            <div class="service">
+                                <h3 class="counter" id="total" style="color: white;">
     
                                 </h3>
                                 <p style="color: white;"><b>Total Global confirmed</b></p>
                             </div>
                         </div>
-                        <div class="col lg-3 col-md-6 col-sm-12 counter-item">
-                            <div class="single-counter-box">
-                                <h3 class="odometer odometer-auto-theme" id="totalr">
-    
-                                </h3>
-                                <p style="color: white;"><b>Total Global Recovery</b></p>
-                            </div>
-                        </div>
 
-                        <div class="col lg-3 col-md-6 col-sm-12 counter-item">
-                            <div class="single-counter-box">
-                                <h3 class="odometer odometer-auto-theme" id="totald">
+                        <div class="col-xs-4 service-left">
+                            <div class="service">
+                                <h3 class="counter" id="totalr">
+    
+                                </h3>
+                                <p style="color: white;"><b>Total Global recovered</b></p>
+                            </div>
+                        </div>
+                       
+
+                        <div class="col-xs-4 service-left">
+                            <div class="service">
+                                <h3 class="counter" id="totald">
     
                                 </h3>
                                 <p style="color: white;"><b>Total Global deaths</b></p>
                             </div>
                         </div>
-                        <div class="col lg-3 col-md-6 col-sm-12 counter-item">
-                            <div class="single-counter-box">
+                        <div class="col-xs-4 service-left">
+                            <div class="service">
                                 <h3 class="odometer odometer-auto-theme" style="color: white;">
-                                    215
+                                    186+29
                                 </h3>
-                                <p style="color: white;"><b>Total Global deaths</b></p>
+                                <p style="color: white;"><b>Total Countries</b></p>
                             </div>
                         </div>
 
                         
                     </div>
-                </div>
+                
             </div>
         </section>
         <br>
+        <br>
+        <h1 class="country" style="color: white;">By country:</h1>
         <br>
        <!-- <h1><span>GLOBAL CONFIRMED CASES:</span>
         <span id="total">0</span></h1><br>
@@ -96,7 +121,7 @@
              
             </tbody>
           </table>
-    </div>
+    
     </div>
     
 </body>

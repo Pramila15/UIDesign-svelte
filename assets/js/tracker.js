@@ -11,6 +11,18 @@ $(document).ready(function(){
             $("#totalr").text(x.Global.TotalRecovered)
             $("#totald").text(x.Global.TotalDeaths)
 
+            $('.counter').each(function () {
+                $(this).prop('Counter',0).animate({
+                    Counter: $(this).text()
+                }, {
+                    duration: 4000,
+                    easing: 'swing',
+                    step: function (now) {
+                        $(this).text(Math.ceil(now));
+                    }
+                });
+            });
+
             let arr = x.Countries
 
             for(var i=0;i<arr.length;++i){
