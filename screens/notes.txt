@@ -1,0 +1,3 @@
+All the other screens , FAQ and facts, REALTIME STATS and precautions should 
+be under this folder.
+index.html being the home page, at the root directory.
