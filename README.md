@@ -1,4 +1,4 @@
-#UIDesign-Svelte
+<h1>UIDesign-Svelte</h1>
 <br>
 Web page design for hosting COVID-19 info.
 <br>
