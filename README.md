@@ -1,4 +1,4 @@
-<h1>https://pramila15.github.io/covid19.gtihub.io/ - Check this out !</h1>
+<h1> - Check this out !</h1>
 <br>
 Web page design for hosting COVID-19 info.
 <br>
