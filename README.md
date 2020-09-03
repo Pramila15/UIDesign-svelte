@@ -1,4 +1,4 @@
-<h1> - Check this out !</h1>
+<h1>https://covid19-info-status.netlify.app/ - Check this out !</h1>
 <br>
 Web page design for hosting COVID-19 info.
 <br>
